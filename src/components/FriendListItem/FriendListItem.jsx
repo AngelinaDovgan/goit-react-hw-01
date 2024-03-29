@@ -1,3 +1,4 @@
+
 export default function FriendListItem({ avatar, name, isOnline }) {
 return (
     <div>

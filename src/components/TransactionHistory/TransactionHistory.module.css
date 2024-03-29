@@ -1,0 +1,14 @@
+.border {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: auto;
+}
+
+.elem {
+    border: 1px solid;
+    padding: 20px;
+ }
+
+ .head {
+background-color: darkgrey;
+ }

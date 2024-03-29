@@ -1,6 +1,9 @@
 .avatarka {
     width: 200px;
     height: auto;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 25px;
 }
 
 .flexul {
@@ -17,4 +20,15 @@ justify-content: center;
     justify-content: center;
     border: solid black;
     width: 150px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.container{
+    border: solid black;
+    border-radius: 5px;
+}
+
+.fol {
+    font-weight: 700;
 }
