@@ -1,0 +1,20 @@
+.avatarka {
+    width: 200px;
+    height: auto;
+}
+
+.flexul {
+display: flex;
+list-style: none;
+gap: 6px;
+justify-content: center;
+}
+
+.flexli {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    border: solid black;
+    width: 150px;
+}

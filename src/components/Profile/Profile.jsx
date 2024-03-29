@@ -1,8 +1,9 @@
-export default function Profile({ username, tag, location, image, stats }){
+import css from './Profile.module.css'
+export default function Profile({ username, tag, location, image, stats }) {
     return (
         <div>
             <div>
-                <img
+                <img className={css.avatarka}
                     src={image}
                     alt="User avatar"
                 />
@@ -11,16 +12,16 @@ export default function Profile({ username, tag, location, image, stats }){
                 <p>{location}</p>
             </div>
 
-            <ul>
-                <li>
+            <ul className={css.flexul}>
+                <li className={css.flexli}>
                     <span>Followers</span>
                     <span>{stats.followers}</span>
                 </li>
-                <li>
+                <li className={css.flexli}>
                     <span>Views</span>
                     <span>{stats.views}</span>
                 </li>
-                <li>
+                <li className={css.flexli}>
                     <span>Likes</span>
                     <span>{stats.likes}</span>
                 </li>
