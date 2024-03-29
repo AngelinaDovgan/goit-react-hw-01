@@ -1,0 +1,13 @@
+.flexul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.liststyle {
+    border: solid blue;
+    border-radius: 5px;
+    padding: 20px;
+}
