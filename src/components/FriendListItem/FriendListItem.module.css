@@ -6,6 +6,9 @@ color: green;
     color: red;
 }
 
+.text {
+    margin: 0;
+}
 .names {
     font-weight: 600;
     font-size: 20px;
